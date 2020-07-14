@@ -17,7 +17,13 @@ function EmployeeTable(props) {
             <tbody>
                 {props.data.map(employee => (
                     <Employee
+                        id={employee.login.uuid}
+                        image={employee.picture.medium}
                         firstName={employee.name.first}
+                        lastName={employee.name.last}
+                        phone={employee.phone}
+                        email={employee.email}
+                        dob={employee.dob.date}
                     />
                 ))}
             </tbody>

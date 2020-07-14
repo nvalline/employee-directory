@@ -1,10 +1,14 @@
 import React from 'react'
+import Moment from 'react-moment';
 
 function Employee(props) {
-    console.log("PROPS:", props)
     return (
-        <tr>
-            <td>{props.firstName}</td>
+        <tr key={props.id}>
+            <td><img src={props.image} alt="Profile" /></td>
+            <td>{props.firstName} {props.lastName}</td>
+            <td>{props.phone}</td>
+            <td>{props.email}</td>
+            <td><Moment format="LL">{props.dob}</Moment></td>
         </tr>
     )
 }
