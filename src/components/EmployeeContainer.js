@@ -6,7 +6,7 @@ import API from '../utils/API';
 export class EmployeeContainer extends Component {
     state = {
         result: [],
-        search: ""
+        search: []
     }
 
     componentDidMount() {
@@ -21,10 +21,20 @@ export class EmployeeContainer extends Component {
             .catch(err => console.log(err));
     };
 
+    handleInputChange = (event) => {
+        const value = event.target.value;
+        this.setState({
+            search: value
+        })
+    }
+
     render() {
         return (
             <div>
-                <EmployeeSearch />
+                <EmployeeSearch
+                    value={this.state.search}
+                    handleInputChange={this.handleInputChange}
+                />
                 <EmployeeTable
                     data={this.state.result}
                 />

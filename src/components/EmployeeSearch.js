@@ -1,18 +1,17 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export class EmployeeSearch extends Component {
-    render() {
-        return (
-            <form>
-                <input
-                    type="text"
-                    placeholder="Enter Employee Name"
-                    name="employeeName"
-                // onChange={}
-                />
-            </form>
-        )
-    }
+function EmployeeSearch(props) {
+    return (
+        <form>
+            <input
+                type="text"
+                placeholder="Enter Employee Name"
+                name="search"
+                value={props.value}
+                onChange={props.handleInputChange}
+            />
+        </form>
+    )
 }
 
 export default EmployeeSearch;
