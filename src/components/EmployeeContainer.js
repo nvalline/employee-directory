@@ -6,7 +6,7 @@ import API from '../utils/API';
 export class EmployeeContainer extends Component {
     state = {
         result: [],
-        search: []
+        search: ""
     }
 
     componentDidMount() {
@@ -37,6 +37,7 @@ export class EmployeeContainer extends Component {
                 />
                 <EmployeeTable
                     data={this.state.result}
+                    search={this.state.search}
                 />
             </div>
         )
