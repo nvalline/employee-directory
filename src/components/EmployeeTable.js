@@ -10,17 +10,17 @@ function EmployeeTable({ result, search, sortAscending, sortDescending }) {
     )
 
     return (
-        <table>
+        <table className="table table-striped">
             <thead>
                 <tr>
-                    <th>Image</th>
-                    <th>Name
+                    <th scope="col">Image</th>
+                    <th scope="col">Name
                         <i onClick={() => (sortDescending())} className="fas fa-caret-down"></i>
                         <i onClick={() => (sortAscending())} className="fas fa-caret-up"></i>
                     </th>
-                    <th>Phone</th>
-                    <th>Email</th>
-                    <th>DOB</th>
+                    <th scope="col">Phone</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">DOB</th>
                 </tr>
             </thead>
             <tbody>

@@ -17,3 +17,9 @@ body {
 .form-group {
   width: 30%;
 }
+
+.table {
+  border: 2px solid #DEE2E6;
+  margin: 0 auto;
+  width: 90%;
+}
