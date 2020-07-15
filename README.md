@@ -1,68 +1,121 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Name
 
-## Available Scripts
+# Employee Directory
 
-In the project directory, you can run:
+<img src="./dev-img/employee-directory.png" alt="Project Screenshot" max-height="400px">
 
-### `npm start`
+> This react application allows the user to view an entire employee directory at once and allows for search and sorting interaction.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### [View The Site](https://agile-sands-10651.herokuapp.com/) - The project is live.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+### Table of Contents
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Description](#description)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [How To Use](#how-to-use)
+- [Test(s)](#tests)
+- [Contributors](#contributors)
+- [Questions](#questions)
+- [License](#license)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Description
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+This react application allows the user to view an entire employee directory at once. Upon load, the app will display all employees in the directory in a clean, easy to view table.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The user is able to search by employee name by entering the desired search into the text field.  This search feature is a live search and will filter the employee list with each keystroke. 
 
-### `npm run eject`
+The user is able to sort the displayed list alphabetically by selecting the carets next to the 'Name' header.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+[Back To The Top](#project-name)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Technologies
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![GitHub Top Language](https://img.shields.io/github/languages/top/nvalline/employee-directory) ![GitHub language count](https://img.shields.io/github/languages/count/nvalline/employee-directory)
 
-## Learn More
+- React.js, Javascript, node.js, JSX, HTML, CSS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Back To The Top](#project-name)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Installation
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Simply click the following link to load the application in your browser.
 
-### Analyzing the Bundle Size
+#### [View The Site](https://agile-sands-10651.herokuapp.com/) - The project is live.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+[Back To The Top](#project-name)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## How To Use
 
-### Advanced Configuration
+Once the application is loaded in the browser, simply enter the name of the employee to search by typing in the text field above the table of employees.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+To sort the table alphabetically by first name (ascending or descending), simply click the carets next to the 'Name' header of the table.
 
-### Deployment
+[Back To The Top](#project-name)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+---
 
-### `npm run build` fails to minify
+## Tests
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+There are no tests.
+
+[Back To The Top](#project-name)
+
+---
+
+## Contributors
+
+- Nate Valline
+
+[Back To The Top](#project-name)
+
+---
+
+## Questions
+
+Please contact the following for any questions.
+
+<img src="https://avatars3.githubusercontent.com/u/58278138?v=4" alt="User Image" width="35px">  =>  contact@natevalline.com
+
+[Back To The Top](#project-name)
+
+---
+
+## License
+
+MIT License
+
+Copyright (c) 2020 Nate Valline
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+[Back To The Top](#project-name)
+
+---
+    
