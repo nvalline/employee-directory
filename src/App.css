@@ -9,3 +9,7 @@
 body {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
+
+.header {
+  border-bottom: 5px solid #f0b025;
+}
