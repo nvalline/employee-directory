@@ -6,7 +6,7 @@
 
 > This react application allows the user to view an entire employee directory at once and allows for search and sorting interaction.
 
-#### [View The Site](https://agile-sands-10651.herokuapp.com/) - The project is live.
+#### [View The Site](https://nvalline.github.io/employee-directory/) - The project is live.
 
 ---
 
@@ -49,7 +49,7 @@ The user is able to sort the displayed list alphabetically by selecting the care
 
 Simply click the following link to load the application in your browser.
 
-#### [View The Site](https://agile-sands-10651.herokuapp.com/) - The project is live.
+#### [View The Site](https://nvalline.github.io/employee-directory/) - The project is live.
 
 [Back To The Top](#project-name)
 
