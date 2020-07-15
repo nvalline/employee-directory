@@ -8,7 +8,7 @@ function Employee(props) {
             <td>{props.firstName} {props.lastName}</td>
             <td>{props.phone}</td>
             <td>{props.email}</td>
-            <td><Moment format="LL">{props.dob}</Moment></td>
+            <td><Moment format="ll">{props.dob}</Moment></td>
         </React.Fragment>
     )
 }

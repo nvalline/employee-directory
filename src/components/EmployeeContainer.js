@@ -6,7 +6,8 @@ import API from '../utils/API';
 export class EmployeeContainer extends Component {
     state = {
         result: [],
-        search: ""
+        search: "",
+        sort: ""
     }
 
     componentDidMount() {
@@ -28,6 +29,18 @@ export class EmployeeContainer extends Component {
         })
     }
 
+    sortAscending = () => {
+        let array = this.state.result;
+        array.sort((a, b) => (a.name.first > b.name.first) ? 1 : -1);
+        this.setState({ result: array });
+    }
+
+    sortDescending = () => {
+        let array = this.state.result;
+        array.sort((a, b) => (a.name.first < b.name.first) ? 1 : -1);
+        this.setState({ result: array });
+    }
+
     render() {
         return (
             <div>
@@ -36,8 +49,10 @@ export class EmployeeContainer extends Component {
                     handleInputChange={this.handleInputChange}
                 />
                 <EmployeeTable
-                    data={this.state.result}
+                    result={this.state.result}
                     search={this.state.search}
+                    sortAscending={this.sortAscending}
+                    sortDescending={this.sortDescending}
                 />
             </div>
         )

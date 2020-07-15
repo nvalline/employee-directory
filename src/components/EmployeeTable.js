@@ -1,8 +1,8 @@
 import React from 'react';
 import Employee from './Employee';
 
-function EmployeeTable({ data, search }) {
-    let filteredEmployees = data.filter(
+function EmployeeTable({ result, search, sortAscending, sortDescending }) {
+    let filteredEmployees = result.filter(
         (employee) => {
             let fullName = employee.name.first + " " + employee.name.last;
             return fullName.toLowerCase().indexOf(search) !== -1;
@@ -14,7 +14,10 @@ function EmployeeTable({ data, search }) {
             <thead>
                 <tr>
                     <th>Image</th>
-                    <th>Name</th>
+                    <th>Name
+                        <i onClick={() => (sortDescending())} className="fas fa-caret-down"></i>
+                        <i onClick={() => (sortAscending())} className="fas fa-caret-up"></i>
+                    </th>
                     <th>Phone</th>
                     <th>Email</th>
                     <th>DOB</th>
