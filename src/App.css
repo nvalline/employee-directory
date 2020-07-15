@@ -8,18 +8,29 @@
 
 body {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  margin-bottom: 100px;
 }
 
 .header {
   border-bottom: 5px solid #f0b025;
 }
 
-.form-group {
-  width: 30%;
+.header-content {
+  margin: 0 auto;
+  width: 55%;
+}
+
+form {
+  max-width: 30%;
 }
 
 .table {
   border: 2px solid #DEE2E6;
   margin: 0 auto;
   width: 90%;
+}
+
+i {
+  cursor: pointer;
+  margin-left: 5px;
 }

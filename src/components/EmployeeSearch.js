@@ -2,8 +2,8 @@ import React from 'react'
 
 function EmployeeSearch(props) {
     return (
-        <form>
-            <div className="form-group my-5 mx-auto">
+        <form className="py-5 mx-auto">
+            <div className="form-group">
                 <input
                     type="text"
                     placeholder="Enter Employee Name"
